@@ -273,6 +273,11 @@ body{
     outline: none;
 }
 
+#plans-terms{
+    font-size: 1.25rem;
+    margin-top: 40px ;
+}
+
 footer{
     height: 112px;
     background-color: black;
@@ -281,23 +286,43 @@ footer{
 #footer-wrapper{
     height: 100%;
 
+
+    padding: 50px 100px;
+
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 
 #footer-links{
     grid-row-start: 2;
+    list-style: none;
 
+    font-size: 1.25rem;
     color: #919496;
+}
+
+#footer-links li{
+    float: left;
+    margin: 0 10px;
 }
 
 #select-country{
     grid-column-start: 2;
     grid-row-start: 1;
+
+    justify-self: right;
+
+    font-size: 1.25rem;
+    color: #919496;
 }
 #year{
     grid-column-start: 2;
     grid-row-start: 2;
+
+    justify-self: right;
+
+    font-size: 1.25rem;
+    color: #919496;
 }
 
 #header{
